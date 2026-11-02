@@ -55,3 +55,4 @@ src/
 - **Future phases:** Login, Start buttons, "View lessons", socials and Privacy Policy show a "coming in the next release" notice via `useComingSoon()`. Replace those `notify(...)` calls with routes when auth/lessons are added.
 - **3D:** CSS 3D transforms (no Three.js) to keep the bundle small: open book, 3D book shelf, tilting teacher cards. Pointer parallax runs only with a mouse on ≥1024px; scroll-linked motion runs everywhere unless reduced motion is on.
 - **Motion:** `MotionConfig reducedMotion="user"` + a CSS media query respect `prefers-reduced-motion`.
+# Bezoreact
